@@ -4,6 +4,8 @@ import { Header } from './components/Header'
 import { Hero } from './components/Hero'
 import { Services } from './components/Services'
 import { Space } from './components/Space'
+import { StudioMonitors } from './components/StudioMonitors'
+import { Subwoofer } from './components/Subwoofer'
 import { Work } from './components/Work'
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
         <Header />
         <main>
           <Hero />
+          <StudioMonitors />
+          <Subwoofer />
           <Services />
           <Space />
           <Work />
